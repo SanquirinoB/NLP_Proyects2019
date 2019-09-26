@@ -10,17 +10,17 @@ Basta con abrir el archivo que se desea con [Colab](https://colab.research.googl
 ## Run in localhost:
 
 0. instalar virtualenv (si ya lo tienes instalado ignora este paso)
-```bash
+```
     $ pip install virtualenv 
 ```
 
 1. En la carpeta NLP_PROYECTS2019 crear un ambiente virtual. Esto creará una carpeta con el nombre *venv* que tendrá un nuevo ambiente para ejecutar python.
 
-```bash
+```
     $ virtualenv venv
 ```
 
-2. Activar el nuevo ambiente virtual.
+1. Activar el nuevo ambiente virtual.
 
 ```
     $ source venv/bin/activate
@@ -42,7 +42,3 @@ Basta con abrir el archivo que se desea con [Colab](https://colab.research.googl
 ```
     $ jupyter notebook
 ```
-
-
-
-
