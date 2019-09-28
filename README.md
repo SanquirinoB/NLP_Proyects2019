@@ -31,10 +31,15 @@ Basta con abrir el archivo que se desea con [Colab](https://colab.research.googl
     $ pip install -r requirements.txt
 ```
 
-4. Instalar ambiente virtual para jupyter notebook
+4.1 Instalar ambiente virtual para jupyter notebook
 
 ```
     $ ipython kernel install --user --name=.venv
+```
+
+4.2 Chequear que este el ambiente en los kernels
+```
+    $ jupyter kernelspec list
 ```
 
 5. Ejecutar jupyter notebook y al ejecutar un codigo setear el ambiente para python como .venv
