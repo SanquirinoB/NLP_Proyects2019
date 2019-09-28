@@ -47,3 +47,10 @@ Basta con abrir el archivo que se desea con [Colab](https://colab.research.googl
 ```
     $ jupyter notebook
 ```
+
+## Metodologia
+
+1. Probar sin tokenizar (usando count and tfidf) svm, logisticregression, randomforest, adaboost por separado y luego juntandolos 
+2. hacer 1. pero usando tweet_tokenizer
+3. hacer 1. pero usando tweet_tokenizer + mark negation
+4. Quedarse con el mejor
