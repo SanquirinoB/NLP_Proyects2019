@@ -4,6 +4,7 @@ from nltk.sentiment.util import mark_negation
 
 
 def overkill_tokenize(sentence):
+    sentence = sentence.lower()
     # first: tweet tokenize
     tweetTok = TweetTokenizer(strip_handles=True, reduce_len=False).tokenize
     lemma = WordNetLemmatizer().lemmatize
